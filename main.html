@@ -1,0 +1,9 @@
+<div>
+  {{countdown}}
+  <form name="searchUser" ng-submit="searchUserWithName(userName)">
+    <!--In order to required attribute to work properly, use form submit and not click event of button-->
+    Change the user:
+    <input type="text" placeholder="Username to find" ng-model="userName" />
+    <input type="submit" value="search" />
+  </form>
+</div>
